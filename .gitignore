@@ -12,3 +12,14 @@
 /captures
 .externalNativeBuild
 .cxx
+/.idea/dbnavigator.xml
+/module_cart/src/androidTest/java/com/hfy/module_cart/ExampleInstrumentedTest.java
+/app/src/androidTest/java/com/hfy/cart/ExampleInstrumentedTest.java
+/module_cart/src/test/java/com/hfy/module_cart/ExampleUnitTest.java
+/app/src/test/java/com/hfy/cart/ExampleUnitTest.java
+/.idea/gradle.xml
+/.idea/misc.xml
+/.idea/codeStyles/Project.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/runConfigurations.xml
+/.idea/vcs.xml
