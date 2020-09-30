@@ -3,6 +3,7 @@ package com.hfy.module_cart;
 import android.content.Context;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
+import com.hfy.export_cart.bean.CartInfo;
 import com.hfy.export_cart.router.CartRouterTable;
 import com.hfy.export_cart.service.ICartService;
 
@@ -14,8 +15,10 @@ import com.hfy.export_cart.service.ICartService;
 public class CartServiceImpl implements ICartService {
 
     @Override
-    public int getProductCountInCart() {
-        return 666;
+    public CartInfo getProductCountInCart() {
+        CartInfo cartInfo = new CartInfo();
+        cartInfo.productCount = 666;
+        return cartInfo;
     }
 
     @Override

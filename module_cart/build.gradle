@@ -48,6 +48,6 @@ dependencies {
     annotationProcessor 'com.alibaba:arouter-compiler:1.2.1'
     implementation 'com.github.hufeiyang:Common:1.0.0'
 
-    implementation 'com.github.hufeiyang.Cart:export_cart:1.0.3'
+    implementation 'com.github.hufeiyang.Cart:export_cart:1.0.5'
 
 }
