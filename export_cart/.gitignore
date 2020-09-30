@@ -1,1 +1,3 @@
 /build
+/src/androidTest/java/com/hfy/export_cart/ExampleInstrumentedTest.java
+/src/test/java/com/hfy/export_cart/ExampleUnitTest.java
