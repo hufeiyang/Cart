@@ -1,6 +1,7 @@
 package com.hfy.export_cart;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.hfy.export_cart.bean.CartInfo;
 import com.hfy.export_cart.router.CartRouterTable;
 import com.hfy.export_cart.service.ICartService;
 
@@ -37,7 +38,7 @@ public class CartServiceUtil {
      * 获取购物车中商品数量
      * @return
      */
-    public static int getCartProductCount(){
+    public static CartInfo getCartProductCount(){
         return ARouter.getInstance().navigation(ICartService.class).getProductCountInCart();
     }
 
