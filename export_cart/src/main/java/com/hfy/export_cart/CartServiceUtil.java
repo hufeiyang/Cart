@@ -39,8 +39,7 @@ public class CartServiceUtil {
      * @return
      */
     public static CartInfo getCartProductCount(){
-        return ARouter.getInstance().navigation(ICartService.class).getProductCountInCart();
+        return getService().getProductCountInCart();
     }
-
 
 }
