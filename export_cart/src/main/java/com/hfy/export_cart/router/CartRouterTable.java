@@ -13,6 +13,11 @@ public interface CartRouterTable {
     String PATH_PAGE_CART = "/cart/cartActivity";
 
     /**
+     * 购物车fragment
+     */
+    String PATH_FRAGMENT_CART = "/cart/cartFragment";
+
+    /**
      * 购物车服务
      */
     String PATH_SERVICE_CART = "/cart/service";
