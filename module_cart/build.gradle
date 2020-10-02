@@ -50,6 +50,6 @@ dependencies {
     implementation 'com.github.hufeiyang:Common:1.0.0'
 
     //依赖export_cart
-    implementation 'com.github.hufeiyang.Cart:export_cart:1.0.5'
+    implementation 'com.github.hufeiyang.Cart:export_cart:1.0.8'
 
 }

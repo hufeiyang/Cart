@@ -1,19 +1,17 @@
 package com.hfy.module_cart;
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.fragment.app.Fragment;
+
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.hfy.export_cart.CartServiceUtil;
 import com.hfy.export_cart.router.CartRouterTable;
 
 
-//@Route(path = CartRouterTable.PATH_FRAGMENT_CART)
+@Route(path = CartRouterTable.PATH_FRAGMENT_CART)
 public class CartFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
