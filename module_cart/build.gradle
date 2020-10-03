@@ -47,7 +47,9 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     annotationProcessor 'com.alibaba:arouter-compiler:1.2.1'
-    implementation 'com.github.hufeiyang:Common:1.0.0'
+
+    implementation 'com.github.hufeiyang:Common:1.0.1'
+    annotationProcessor 'com.github.hufeiyang.Android-AppLifecycleMgr:applifecycle-compiler:1.0.3'
 
     //依赖export_cart
     implementation 'com.github.hufeiyang.Cart:export_cart:1.0.8'
